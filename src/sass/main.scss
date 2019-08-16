@@ -1,0 +1,14 @@
+@import "fonts";
+
+$background-dark: #171717;
+$menu-red: #DD2A3B;
+
+a, a:active, a:visited {
+  text-decoration: none;
+}
+
+button:focus{
+  outline: none;
+}
+
+@import "header/index";

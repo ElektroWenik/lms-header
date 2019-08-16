@@ -1,0 +1,17 @@
+$menu-transition: all .3s;
+
+.header{
+  background: $background-dark;
+  box-shadow: 0 1px 16px rgba(0, 0, 0, 0.1);
+  height: 132px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 48px;
+  &__logo{
+    height: 56px;
+  }
+}
+
+@import "menu";
+@import "widget";
